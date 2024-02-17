@@ -33,8 +33,9 @@
       justify-content: space-between;
   }
   .image-container img {
-      width: 100%;
-      margin-bottom: 20px;
+      margin-left: 80px;
+      width: 80%;
+      margin-bottom: 140px;
   }
 
   header {
@@ -85,7 +86,7 @@
       justify-content: space-between;
   }
   .image-container img {
-      width: calc(50% - 20px);
+      width: 400px;
       margin-bottom: 20px;
   }
 
@@ -307,7 +308,7 @@ font-size: 450%;
 margin-left: 180px;
 margin-right: 180px;
 }
-/*menu hamburguer*/
+/*menu hamburguer
 .menu {
     position: fixed;
     top: 0;
@@ -398,7 +399,7 @@ margin-right: 180px;
   #toggle:checked ~ .menu {
     right: 0;
   }
-/*imagens do blog*/
+/*imagens do blog
   .image-container {
     display: flex;
     border: 2px solid #ba5100;
@@ -425,4 +426,5 @@ margin-right: 180px;
     font-size: 16px;
     color: #333;
   }
+  */
   

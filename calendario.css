@@ -1,0 +1,310 @@
+/* Estilos para desktop */
+@media (min-width: 768px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+  
+    #body_main {
+        background-color: #f9f7da;
+        transition: background-color 0.3s ease;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+  
+    #body_inaug {
+        background-color: #f9f7da;
+        transition: background-color 0.3s ease;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+  
+    #p1_main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+  
+    header {
+      padding: 10px;
+      margin: -8px;
+      margin-left: -320px;
+      margin-right: -200px;
+       }
+    #header_main {
+      display: flex;
+      padding: 0 1em;
+      text-align: center;
+      background-color: rgb(227, 106, 0);
+  }
+    #header_inaug{
+        display: flex;
+        padding: 0 1em;
+        align-items: center;
+        background-color: rgb(227, 106, 0);
+      }
+
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+      
+      .calendar {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      
+      .month {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      
+      .days {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 5px;
+      }
+      
+      .day {
+        background-color: #f0f0f0;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+      }
+      
+      /* Estilo para dias com eventos */
+      /* Adicione estilos personalizados conforme necessário */
+      .day.event {
+        background-color: #007bff;
+        color: #fff;
+        font-weight: bold;
+      }
+      
+  }
+  
+  /* Estilos para dispositivos móveis */
+  @media (max-width: 767px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  
+    #body_main {
+        background-color: #f9f7da;
+        transition: background-color 0.3s ease;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+  
+    #p1_main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  
+    #header_main {
+      margin-left: -140px;
+      margin-right: -20px;
+      margin-top: -10px;
+    }
+  
+    #header_inaug{
+      display: flex;
+      padding: 0 1em;
+      align-items: center;
+      background-color: rgb(227, 106, 0);
+      margin-left: -20px;
+      margin-right: -20px;
+      margin-top: -10px;
+    }
+    #body_inaug {
+      background-color: #f9f7da;
+      transition: background-color 0.3s ease;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .calendar {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .month {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .day {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para dias com eventos */
+  /* Adicione estilos personalizados conforme necessário */
+  .day.event {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  
+  /* Estilos comuns */
+#text_cal {
+    text-align: center;
+}
+
+  #image_logo {
+    width: 28%;
+    height: auto;
+    margin-left: -40px;
+    margin-top: 10px;
+  }
+  
+  #image_logo_inaug {
+    width: 28%;
+    height: auto;
+  }
+
+  #titulo_main {
+    margin-left: -170px;
+    color: #fefde8;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #titulo_main_inaug{
+    margin-left: -50px;
+    color: #fefde8;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #header_main {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(227, 106, 0);
+  }
+  
+  #bemvindo {
+    text-align: center;
+    font-size: 28px; /* Reduzindo o tamanho da fonte para dispositivos móveis */
+  }
+  
+  /* Menu hamburguer */
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    transition: right 0.3s ease;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu ul li {
+    padding: 15px;
+    border-bottom: 1px solid #555;;
+  }
+  
+  .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .button {
+    display: block;
+    position: fixed;
+    margin-right: 20px;
+    top: 50px; /* Corrigindo erro de digitação */
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    cursor: pointer;
+    z-index: 9999;
+    border-radius: 25%;
+  }
+  
+  .icon {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+    margin-top: 18px;
+    margin-left: 10px;
+  }
+  
+  .icon:before,
+  .icon:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon:before {
+    top: -8px;
+  }
+  
+  .icon:after {
+    top: 8px;
+  }
+  
+  #toggle {
+    display: none;
+  }
+  
+  #toggle:checked + .button .icon {
+    background-color: transparent;
+  }
+  
+  #toggle:checked + .button .icon:before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  
+  #toggle:checked + .button .icon:after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+  
+  #toggle:checked ~ .menu {
+    right: 0;
+  }
