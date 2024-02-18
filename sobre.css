@@ -20,7 +20,12 @@
     }
     #kly {
         width: 47%;
+        margin-right: 25px;
         margin-bottom: 20px;
+    }
+    #rbc {
+      width: 47%;
+      margin-bottom: 20px;
     }
 
     body {
@@ -109,15 +114,14 @@
       padding-left: 10px;
       padding-right: 10px;
   }
-  #snl {
+   #snl {
     width: 100%;
     margin-bottom: 20px;
-}
+    }
     #wlgt {
     width: 100%;
     margin-bottom: 20px;
-}
-
+    }
     #prc {
         width: 100%;
         margin-bottom: 20px;
@@ -129,6 +133,10 @@
     #kly{
         width: 100%;
         margin-bottom: 20px;
+    }
+    #rbc {
+      width: 100%;
+      margin-bottom: 20px;
     }
   }
   
