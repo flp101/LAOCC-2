@@ -115,10 +115,20 @@
 }
     #wlgt {
     width: 100%;
+    margin-bottom: 20px;
 }
 
     #prc {
         width: 100%;
+        margin-bottom: 20px;
+    }
+    #key{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #kly{
+        width: 100%;
+        margin-bottom: 20px;
     }
   }
   
