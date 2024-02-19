@@ -27,6 +27,15 @@
       width: 47%;
       margin-bottom: 20px;
     }
+    #hdr {
+      width: 47%;
+      margin-right: 25px;
+      margin-bottom: 20px;
+  }
+  #flp {
+    width: 47%;
+    margin-bottom: 20px;
+  }
 
     body {
         font-family: Arial, Helvetica, sans-serif;
@@ -135,6 +144,14 @@
         margin-bottom: 20px;
     }
     #rbc {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    #hdr {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    #flp {
       width: 100%;
       margin-bottom: 20px;
     }
