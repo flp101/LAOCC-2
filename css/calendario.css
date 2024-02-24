@@ -91,11 +91,68 @@
         color: #fff;
         font-weight: bold;
       }
+      footer{
+        background-color: #333;
+        margin-left: -200px;
+        margin-right: -200px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+        padding: 1em;
+        
+      }
+      
+      #publi1{
+        width: 12%;
+        margin-left: 300px;
+      }
+      
+      #publi2{
+        width: 12%;
+        margin-left: 30px;
+      }
+      
+      #publi3{
+        width: 10%;
+        margin-left: 30px;
+      }
+      
+      #publi4{
+        width: 11%;
+        margin-left: 30px;
+      }
       
   }
   
   /* Estilos para dispositivos móveis */
   @media (max-width: 767px) {
+    footer{
+      background-color: #333;
+      margin-left: -20px;
+      margin-right: -20px;
+      margin-bottom: -100px;
+      padding: 1em;
+      
+    }
+    
+    #publi1{
+      width: 20%;
+      margin-left: 30px;
+    }
+    
+    #publi2{
+      width: 20%;
+      margin-left: 10px;
+    }
+    
+    #publi3{
+      width: 15%;
+      margin-left: 10px;
+    }
+    
+    #publi4{
+      width: 16%;
+      margin-left: 10px;
+    }
     .button{
       top: 625px;
     }
