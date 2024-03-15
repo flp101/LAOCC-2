@@ -1,4 +1,8 @@
 /* Estilos para desktop */
+#href {
+  text-decoration: none; /* Remove sublinhado */
+  color:black;
+}
 @media (min-width: 768px) {
   body {
       font-family: Arial, Helvetica, sans-serif;
